@@ -1,0 +1,43 @@
+{
+  "name": "dronesmart",
+  "version": "1.2.1",
+  "description": "A tech hobby and drone online web store made with Node.js and Express.js on the backend, leveraging a JSON flat file data-store. Shopping cart uses Stripe for payment processing.  Front-end built with React.js, React Router, and Bulma CSS.",
+  "main": "server.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/dronesmart.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "React.js",
+	"React Router", 
+    "Tailwind CSS",
+	"Bulma CSS", 
+    "Stripe.com Payment Processing",
+    "e-Commerce",
+	"Shopping Cart",
+    "Back-end",
+    "Front-End",
+    "JSON"
+  ],
+  "author": "Ryan Hunter | GitHub handle : systemsvanguard. Web: www.RyanHunter.org . Email: ryan@RyanHunter.org | Based in Brampton ON Canada in the Greater Toronto Area.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/systemsvanguard/dronesmart/issues"
+  },
+  "homepage": "https://github.com/systemsvanguard/dronesmart#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.132.0",
+    "use-shopping-cart": "^2.4.1"
+  }
+}
